@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+/* <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -16,66 +16,6 @@
 
     <!-- Shop CSS -->
     <link rel="stylesheet" href="assets/css/shop.css">
-
-    <style>
-        .nav__cart {
-            position: relative;
-        }
-
-        .nav__cart .cart-count {
-            position: absolute;
-            top: -8px;
-            right: -9px;
-            min-width: 17px;
-            height: 17px;
-            padding: 0 4px;
-            display: none;
-            align-items: center;
-            justify-content: center;
-            border-radius: 50%;
-            background: var(--first-color);
-            color: #fff;
-            font-size: .6rem;
-            font-weight: 700;
-            line-height: 1;
-        }
-
-        .product-card__bottom {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            flex-wrap: nowrap;
-            gap: .5rem;
-            margin-top: auto;
-        }
-
-        .product-card__price {
-            flex-shrink: 0;
-            white-space: nowrap;
-        }
-
-        .product-card__bottom .product-card__button {
-            flex-shrink: 0;
-            white-space: nowrap;
-            min-width: 0;
-        }
-
-        .product-card__button.added-to-cart {
-            opacity: .7;
-            pointer-events: none;
-        }
-
-        @media screen and (min-width: 577px) {
-            .product-card__bottom .product-card__button {
-                padding-inline: .65rem;
-            }
-
-            .product-card__bottom .add-to-cart {
-                min-width: 92px;
-            }
-        }
-    </style>
-
 </head>
 
 <body>
@@ -134,8 +74,7 @@
 
                 <a href="cart.html" class="nav__cart">
                     <i class="ri-shopping-bag-3-line"></i>
-                    <span id="nav-cart-total">$0.00</span>
-                    <small id="cart-count" class="cart-count">0</small>
+                    <span>$0.00</span>
                 </a>
 
                 <div class="nav__toggle" id="nav-toggle">
@@ -227,7 +166,7 @@
 
                     <!-- PRODUCT 01 -->
 
-                    <article class="product-card" data-product-id="cenforce-d-15" data-product-price="15.00">
+                    <article class="product-card">
 
                         <div class="product-card__image">
 
@@ -269,11 +208,6 @@
                                     View
                                 </a>
 
-                                <button type="button"
-                                    class="product-card__button add-to-cart">
-                                    Add to Cart
-                                </button>
-
                             </div>
 
                         </div>
@@ -283,7 +217,7 @@
 
                     <!-- PRODUCT 02 -->
 
-                    <article class="product-card" data-product-id="kamagra-oral-jelly-22" data-product-price="22.00">
+                    <article class="product-card">
 
                         <div class="product-card__image">
 
@@ -321,11 +255,6 @@
                                     View
                                 </a>
 
-                                <button type="button"
-                                    class="product-card__button add-to-cart">
-                                    Add to Cart
-                                </button>
-
                             </div>
 
                         </div>
@@ -335,7 +264,7 @@
 
                     <!-- PRODUCT 03 -->
 
-                    <article class="product-card" data-product-id="super-kamagra-oral-jelly-18" data-product-price="18.00">
+                    <article class="product-card">
 
                         <div class="product-card__image">
 
@@ -377,11 +306,6 @@
                                     View
                                 </a>
 
-                                <button type="button"
-                                    class="product-card__button add-to-cart">
-                                    Add to Cart
-                                </button>
-
                             </div>
 
                         </div>
@@ -391,7 +315,7 @@
 
                     <!-- PRODUCT 04 -->
 
-                    <article class="product-card" data-product-id="super-kamagra-tablets-25" data-product-price="25.00">
+                    <article class="product-card">
 
                         <div class="product-card__image">
 
@@ -429,11 +353,6 @@
                                     View
                                 </a>
 
-                                <button type="button"
-                                    class="product-card__button add-to-cart">
-                                    Add to Cart
-                                </button>
-
                             </div>
 
                         </div>
@@ -443,7 +362,7 @@
 
                     <!-- PRODUCT 05 -->
 
-                    <article class="product-card" data-product-id="kamagra-soft-chewable-tablets-30" data-product-price="30.00">
+                    <article class="product-card">
 
                         <div class="product-card__image">
 
@@ -481,11 +400,6 @@
                                     View
                                 </a>
 
-                                <button type="button"
-                                    class="product-card__button add-to-cart">
-                                    Add to Cart
-                                </button>
-
                             </div>
 
                         </div>
@@ -495,7 +409,7 @@
 
                     <!-- PRODUCT 06 -->
 
-                    <article class="product-card" data-product-id="super-kamagra-oral-jelly-35" data-product-price="35.00">
+                    <article class="product-card">
 
                         <div class="product-card__image">
 
@@ -537,11 +451,6 @@
                                     View
                                 </a>
 
-                                <button type="button"
-                                    class="product-card__button add-to-cart">
-                                    Add to Cart
-                                </button>
-
                             </div>
 
                         </div>
@@ -551,7 +460,7 @@
 
                     <!-- PRODUCT 07 -->
 
-                    <article class="product-card" data-product-id="apcalis-sx-oral-jelly-20" data-product-price="20.00">
+                    <article class="product-card">
 
                         <div class="product-card__image">
 
@@ -589,11 +498,6 @@
                                     View
                                 </a>
 
-                                <button type="button"
-                                    class="product-card__button add-to-cart">
-                                    Add to Cart
-                                </button>
-
                             </div>
 
                         </div>
@@ -603,7 +507,7 @@
 
                     <!-- PRODUCT 08 -->
 
-                    <article class="product-card" data-product-id="apcalis-sx-oral-jelly-28" data-product-price="28.00">
+                    <article class="product-card">
 
                         <div class="product-card__image">
 
@@ -641,11 +545,6 @@
                                     View
                                 </a>
 
-                                <button type="button"
-                                    class="product-card__button add-to-cart">
-                                    Add to Cart
-                                </button>
-
                             </div>
 
                         </div>
@@ -655,7 +554,7 @@
 
                     <!-- PRODUCT 09 -->
 
-                    <article class="product-card" data-product-id="cobra-200mg-32" data-product-price="32.00">
+                    <article class="product-card">
 
                         <div class="product-card__image">
 
@@ -697,11 +596,6 @@
                                     View
                                 </a>
 
-                                <button type="button"
-                                    class="product-card__button add-to-cart">
-                                    Add to Cart
-                                </button>
-
                             </div>
 
                         </div>
@@ -711,7 +605,7 @@
 
                     <!-- PRODUCT 10 -->
 
-                    <article class="product-card" data-product-id="super-kamagra-oral-jelly-24" data-product-price="24.00">
+                    <article class="product-card">
 
                         <div class="product-card__image">
 
@@ -749,11 +643,6 @@
                                     View
                                 </a>
 
-                                <button type="button"
-                                    class="product-card__button add-to-cart">
-                                    Add to Cart
-                                </button>
-
                             </div>
 
                         </div>
@@ -763,7 +652,7 @@
 
                     <!-- PRODUCT 11 -->
 
-                    <article class="product-card" data-product-id="cenforce-d-27" data-product-price="27.00">
+                    <article class="product-card">
 
                         <div class="product-card__image">
 
@@ -801,11 +690,6 @@
                                     View
                                 </a>
 
-                                <button type="button"
-                                    class="product-card__button add-to-cart">
-                                    Add to Cart
-                                </button>
-
                             </div>
 
                         </div>
@@ -815,7 +699,7 @@
 
                     <!-- PRODUCT 12 -->
 
-                    <article class="product-card" data-product-id="wellness-essentials-29" data-product-price="29.00">
+                    <article class="product-card">
 
                         <div class="product-card__image">
 
@@ -853,11 +737,6 @@
                                     View
                                 </a>
 
-                                <button type="button"
-                                    class="product-card__button add-to-cart">
-                                    Add to Cart
-                                </button>
-
                             </div>
 
                         </div>
@@ -867,7 +746,7 @@
 
                     <!-- PRODUCT 13 -->
 
-                    <article class="product-card" data-product-id="valif-oral-jelly-40" data-product-price="40.00">
+                    <article class="product-card">
 
                         <div class="product-card__image">
 
@@ -909,11 +788,6 @@
                                     View
                                 </a>
 
-                                <button type="button"
-                                    class="product-card__button add-to-cart">
-                                    Add to Cart
-                                </button>
-
                             </div>
 
                         </div>
@@ -923,7 +797,7 @@
 
                     <!-- PRODUCT 14 -->
 
-                    <article class="product-card" data-product-id="tadacip-tablets-36" data-product-price="36.00">
+                    <article class="product-card">
 
                         <div class="product-card__image">
 
@@ -961,11 +835,6 @@
                                     View
                                 </a>
 
-                                <button type="button"
-                                    class="product-card__button add-to-cart">
-                                    Add to Cart
-                                </button>
-
                             </div>
 
                         </div>
@@ -975,7 +844,7 @@
 
                     <!-- PRODUCT 15 -->
 
-                    <article class="product-card" data-product-id="vidalista-60mg-45" data-product-price="45.00">
+                    <article class="product-card">
 
                         <div class="product-card__image">
 
@@ -1016,11 +885,6 @@
                                     class="product-card__button">
                                     View
                                 </a>
-
-                                <button type="button"
-                                    class="product-card__button add-to-cart">
-                                    Add to Cart
-                                </button>
 
                             </div>
 
@@ -1099,137 +963,6 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/shop.js"></script>
 
-    <script>
-        /* =========================================================
-           SHOP CART
-           Uses the existing product-card markup.
-           Does not replace or modify the existing shop.js logic.
-           ========================================================= */
-
-        (() => {
-
-            const CART_KEY = "kamagra_cart";
-
-            function getCart() {
-                try {
-                    return JSON.parse(localStorage.getItem(CART_KEY)) || [];
-                } catch (error) {
-                    console.error("Unable to read cart:", error);
-                    return [];
-                }
-            }
-
-            function saveCart(cart) {
-                localStorage.setItem(CART_KEY, JSON.stringify(cart));
-            }
-
-            function updateCartHeader() {
-
-                const cart = getCart();
-
-                const itemCount = cart.reduce(
-                    (total, item) => total + (Number(item.quantity) || 0),
-                    0
-                );
-
-                const total = cart.reduce(
-                    (sum, item) =>
-                        sum + ((Number(item.price) || 0) * (Number(item.quantity) || 0)),
-                    0
-                );
-
-                const totalElement = document.getElementById("nav-cart-total");
-                const countElement = document.getElementById("cart-count");
-
-                if (totalElement) {
-                    totalElement.textContent = `$${total.toFixed(2)}`;
-                }
-
-                if (countElement) {
-                    countElement.textContent = itemCount;
-                    countElement.style.display =
-                        itemCount > 0 ? "flex" : "none";
-                }
-            }
-
-            function addToCart(button) {
-
-                const card = button.closest(".product-card");
-
-                if (!card) return;
-
-                const titleElement =
-                    card.querySelector(".product-card__title");
-
-                const imageElement =
-                    card.querySelector(".product-card__image img");
-
-                const categoryElement =
-                    card.querySelector(".product-card__category");
-
-                const id = card.dataset.productId;
-                const name = titleElement?.textContent.trim() || "Product";
-                const price = Number(card.dataset.productPrice);
-                const image = imageElement?.getAttribute("src") || "";
-                const category = categoryElement?.textContent.trim() || "";
-
-                if (!id || !Number.isFinite(price)) {
-                    console.error("Invalid product data:", card);
-                    return;
-                }
-
-                const cart = getCart();
-
-                const existingItem = cart.find(item => item.id === id);
-
-                if (existingItem) {
-                    existingItem.quantity =
-                        (Number(existingItem.quantity) || 0) + 1;
-                } else {
-                    cart.push({
-                        id,
-                        name,
-                        price,
-                        image,
-                        category,
-                        quantity: 1
-                    });
-                }
-
-                saveCart(cart);
-                updateCartHeader();
-
-                const originalText = button.textContent.trim();
-
-                button.textContent = "Added ✓";
-                button.classList.add("added-to-cart");
-
-                setTimeout(() => {
-                    button.textContent = originalText;
-                    button.classList.remove("added-to-cart");
-                }, 1000);
-            }
-
-            document.addEventListener("click", event => {
-
-                const button =
-                    event.target.closest(".add-to-cart");
-
-                if (!button) return;
-
-                event.preventDefault();
-                addToCart(button);
-
-            });
-
-            document.addEventListener("DOMContentLoaded", () => {
-                updateCartHeader();
-            });
-
-        })();
-    </script>
-
-
 </body>
 
-</html>
+</html> */

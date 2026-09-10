@@ -352,7 +352,7 @@
    PRICE + BUTTON
    ========================================================= */
 
-.product-card__bottom {
+/* .product-card__bottom {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -360,8 +360,27 @@
     gap: 1rem;
 
     margin-top: auto;
+} */
+.product-card__bottom {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: auto;
 }
 
+.product-card__price {
+    margin-right: auto;
+}
+
+.product-card__button {
+    flex-shrink: 0;
+    min-width: auto;
+    white-space: nowrap;
+}
+
+.product-card__button.add-to-cart {
+    padding-inline: 0.75rem;
+}
 .product-card__price {
     font-size: 1.15rem;
     font-weight: 700;
@@ -922,7 +941,26 @@
 
     font-size: 0.9rem;
 }
+/* =========================================================
+   NAV CART
+   ========================================================= */
 
+.nav__cart {
+    color: var(--title-color);
+    text-decoration: none;
+}
+
+.nav__cart i {
+    color: inherit;
+}
+
+.nav__cart span {
+    color: inherit;
+}
+
+.nav__cart:hover {
+    color: var(--first-color);
+}
 
 /* =========================================================
    WISHLIST
